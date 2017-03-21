@@ -51,11 +51,11 @@ The code for this step is contained in the 3rd and 4th code cell of the IPython 
 
 First some ramdom examples of images are plotted.
 
-![alt text][image0]
+![alt text][image1]
 
 then a graph, showing the number of repeatition of each class in training dataset is generated.
 
-![alt text][image1]
+![alt text][image2]
 
 ### Design and Test a Model Architecture
 
