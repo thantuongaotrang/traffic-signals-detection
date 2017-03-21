@@ -14,8 +14,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
+[image1]: ./examples/samples.png "Exapmle of Images"
+[image2]: ./examples/data_summary.png "Visualization"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
@@ -35,7 +35,7 @@ Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/4
 
 1. Data Set Summary & Exploration
 
-The code for this step is contained in the second code cell of the IPython notebook.  
+The code for this step is contained in the 2nd code cell of the IPython notebook.  
 
 I used the numpy library to calculate summary statistics of the traffic
 signs data set:
@@ -47,13 +47,17 @@ signs data set:
 
 2. Include an exploratory visualization of the dataset and identify where the code is in your code file.
 
-The code for this step is contained in the third code cell of the IPython notebook.  
+The code for this step is contained in the 3rd and 4th code cell of the IPython notebook. 
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+First some ramdom examples of images are plotted.
+
+![alt text][image0]
+
+then a graph, showing the number of repeatition of each class in training dataset is generated.
 
 ![alt text][image1]
 
-###Design and Test a Model Architecture
+### Design and Test a Model Architecture
 
 ####1. Describe how, and identify where in your code, you preprocessed the image data. What tecniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc.
 
