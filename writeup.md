@@ -82,18 +82,18 @@ My final model consisted of the following layers:
 | Input         		| 32x32x3 RGB image   							| 
 | Convolution 5x5     	| 1x1 stride, valid padding, outputs 28x28x10 	|
 | RELU					|												|
-| DROPUOT					|	only for training											|
+| DROPOUT					|	only for training											|
 | Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
 | Convolution 5x5	    | 1x1 stride, valid padding, outputs 14x14x20	|
 | RELU					|												|
-| DROPUOT					|	only for training											|
+| DROPOUT					|	only for training											|
 | Max pooling	      	| 2x2 stride,  outputs 5x5x20 				|
 | Fully connected		| inputs 500, outputs 200									|
 | RELU					|												|
-| DROPUOT					|	only for training											|
+| DROPOUT					|	only for training											|
 | Fully connected		| inputs 200, outputs 100									|
 | RELU					|												|
-| DROPUOT					|	only for training											|
+| DROPOUT					|	only for training											|
 | Fully connected		| inputs 100, outputs 43									|
  
 
