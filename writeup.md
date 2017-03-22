@@ -25,6 +25,7 @@ The goals / steps of this project are the following:
 [image9]: ./exapmles_from_internet/6.jpg "Traffic Sign 9"
 [image10]: ./examples/img_pred.png "Prediction of new images"
 [image11]: ./examples/img_pred_prob.png "Probabilties of new images"
+[image12]: ./test_examples.gif "Probabilties of test images"
 
 ## Rubric Points
 Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -155,5 +156,7 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability.
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook. Interestingly, the image which was not in the dataset, image 4, has the lowest maximum probabilty.
+
+![alt text][image12]
 
 ![alt text][image11]
